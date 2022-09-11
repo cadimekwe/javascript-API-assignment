@@ -1,0 +1,89 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#content {
+    margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0.5rem;
+  row-gap: 3rem;
+}
+
+img {
+    height: 450px;
+    width: 450px;
+}
+
+a {
+    text-decoration: none;
+    background-color: palegoldenrod;
+    padding: 0.3rem;
+    width: fit-content;
+    border-radius: 0.3rem;
+    color: black;
+    cursor: pointer;
+    margin-top: 0.2rem;
+  }
+
+  span {
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #f8c072;
+    padding: 0.3rem;
+    cursor: pointer;
+  }
+
+.album {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-input {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    width: 40%
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: left;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

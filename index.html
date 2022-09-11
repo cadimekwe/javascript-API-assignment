@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <link rel='stylesheet' href='./styles.css'>
+    </head>
+    <body>
+        <div class='headings'>
+            <h1>Quality Photos</h1>
+            <h2>Search our database for HD Photos</h2>
+        </div>
+        <div class>
+            <div class='user-input'>
+                <input id='queryWord' type='text' placeholder='Enter a search word' name='queryWord'/>
+                <input id='page' type='number' placeholder='page' name='page'/>
+                <button id='search-button' onclick='search()'>Search</button>
+            </div>
+            <div id='banner'>No photos yet</div>
+            <div id='content'></div>
+        </div>
+        <script type='text/javascript' src='index.js'></script>
+    </body>
+</html>
